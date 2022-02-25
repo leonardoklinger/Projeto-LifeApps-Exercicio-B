@@ -1,6 +1,6 @@
 var admin = require("firebase-admin");
 const bucket = admin.storage().bucket()
-const BUCKET = "lifeapps-5d77d.appspot.com"
+const BUCKET = ""
 const uploadImagem = (req, res, next) => {
     if (!req.file) return next()
     const imagem = req.file
